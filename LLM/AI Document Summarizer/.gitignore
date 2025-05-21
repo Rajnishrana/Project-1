@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+*.log
+
+# React (Node.js)
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+*.tar
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
