@@ -1,0 +1,10 @@
+# configs/experiment1.yaml
+
+model:
+  name: "microsoft/DialoGPT-medium"
+
+training:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 3e-5
+  save_path: "models/dialoGPT_medium_exp1"

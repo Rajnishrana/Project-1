@@ -1,0 +1,25 @@
+model:
+  name: microsoft/DialoGPT-small
+  max_length: 128
+
+tokenizer:
+  model_name: microsoft/DialoGPT-small
+  max_length: 128
+
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.0005
+  save_path: models/dialoGPT_small
+  loss_type: cross_entropy
+
+data:
+  processed_data_path: /content/drive/MyDrive/Gooogle Colab projects/NLP/Chatbot projects/data/processed.txt
+  train_split: 0.8
+  val_split: 0.1
+  max_length: 128
+  max_samples: 200
+
+generation:
+  max_new_tokens: 50  # Control generation length here
+  # max_length: 180  # Optional, but be cautious with this to avoid errors
