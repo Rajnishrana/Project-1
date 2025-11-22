@@ -1,0 +1,11 @@
+python-dotenv
+chromadb
+requests
+sentence-transformers
+torch
+transformers
+python-dotenv
+dotenv
+transformers
+torch
+accelerate
