@@ -19,7 +19,7 @@ Follow these steps to get TubeMind up and running on your local machine.
 •	A Google AI Studio API Key (you can grab one for free at the Google AI Studio website).
 2. Clone the Project First, grab the code from GitHub:
 Bash
-git clone https://github.com/your-username/YT_Summarizer.git
+git clone https://github.com/Rajnishrana/Project-1/tree/main/TubeMind
 cd YT_Summarizer
 3. Set up a Virtual Environment Keep your dependencies organized:
 Bash
