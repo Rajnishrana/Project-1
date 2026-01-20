@@ -1,0 +1,18 @@
+# --- Core Framework ---
+streamlit==1.53.0
+langchain==1.2.6
+langchain-community==0.3.0
+python-dotenv==1.2.0
+
+# --- AI & LLM Integration ---
+langchain-google-genai==4.2.0
+langchain-huggingface==1.2.0
+sentence-transformers==3.0.1
+
+# --- Data & Transcripts ---
+youtube-transcript-api==1.2.3
+faiss-cpu==1.13.2
+tiktoken==0.7.0
+
+# --- Utilities ---
+pydantic==2.10.0
